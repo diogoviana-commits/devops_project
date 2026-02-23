@@ -1,0 +1,6 @@
+﻿services:
+  api:
+    build: .
+    container_name: devops-learning-api
+    ports:
+      - "8000:8000"
